@@ -31,3 +31,9 @@ puts (((60 * 60)*24)*365)*30
 puts "Author's Age"
 
 puts (((1390000000 / 60) / 60) / 24) / 365
+
+puts "Hello, world!"
+
+puts " "
+
+puts "Good-bye."
