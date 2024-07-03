@@ -15,3 +15,19 @@ puts 2 * 3
 puts 5 - 8
 
 puts 9 / 2
+
+puts "Hours in a year"
+
+puts 365 * 24
+
+puts "Minutes in a decade"
+
+puts ((60 * 24) * 365) * 10
+
+puts "Age in seconds"
+
+puts (((60 * 60)*24)*365)*30
+
+puts "Author's Age"
+
+puts (((1390000000 / 60) / 60) / 24) / 365
