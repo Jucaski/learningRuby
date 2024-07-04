@@ -103,7 +103,28 @@ puts " "
 #Getting string
 #puts gets 
 
+#Greeting someone by their name
 puts "Hello there, what's  your name?"
 name = gets.chomp #chomp helps taking off any newline characters hanging out at  the end of the string
 puts "Your name is #{name}? What a lovely name!"
 puts "Pleased to meet you, #{name}. :)"
+
+#Greeting someone by their full name
+puts "Hello, Can you tell me you first name?"
+fist_name = gets.chomp
+puts "Now Can you write your middle name?"
+middle_name = gets.chomp
+puts "And finally, Can you write your last name?"
+last_name = gets.chomp
+puts "So, your full name is #{fist_name} #{middle_name} #{last_name}!"
+puts "Nice to meet you :)"
+
+puts " "
+puts "Can you tell me what is your favorite number?"
+favorite_number = gets.chomp
+puts "Your favorite number is #{favorite_number}, but what about #{favorite_number.to_i + 1}?"
+puts "It's a bigger number and can be your favorite number now :)"
+
+#Methods
+puts ("hello ".+("world"))
+puts ((10.*(9)).+(9))
