@@ -42,4 +42,27 @@ puts "2 * 5"
 #puts "Marceline" + 12
 #puts "Finn" * "Jake"
 
+#Escaping in string
+puts "They said \"Yes!\""
+puts "up\\down"
+puts "backslash at the end of a string: \\"
+puts "Dip!"
+puts "\D\i\p\!"
+puts "Duck...\nDuck..."
+puts "\tGoose!" #Generates a tab character
 
+#Variables
+my_string = "...you can say that again..."
+puts my_string
+puts my_string
+name = "Anya Christina Emmanuella Jenkins Harris"
+puts "My name is #{name}."
+puts "Wow! #{name}\nis a really long name."
+composer = "Mozart"
+puts "#{composer} was all the rage in his day."
+composer = "Beethoven"
+puts "But I prefer #{composer}, personally."
+my_own_variable = "just another " + "string"
+puts my_own_variable
+my_own_variable = 5 * (1+2)
+puts my_own_variable
