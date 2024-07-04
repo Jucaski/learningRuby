@@ -101,5 +101,9 @@ puts " "
 #puts means "put string"
 
 #Getting string
-puts gets 
+#puts gets 
 
+puts "Hello there, what's  your name?"
+name = gets.chomp #chomp helps taking off any newline characters hanging out at  the end of the string
+puts "Your name is #{name}? What a lovely name!"
+puts "Pleased to meet you, #{name}. :)"
