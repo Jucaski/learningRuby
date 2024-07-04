@@ -110,6 +110,7 @@ puts "Your name is #{name}? What a lovely name!"
 puts "Pleased to meet you, #{name}. :)"
 
 #Greeting someone by their full name
+puts " "
 puts "Hello, Can you tell me you first name?"
 fist_name = gets.chomp
 puts "Now Can you write your middle name?"
@@ -126,5 +127,30 @@ puts "Your favorite number is #{favorite_number}, but what about #{favorite_numb
 puts "It's a bigger number and can be your favorite number now :)"
 
 #Methods
+puts " "
+puts "Methods"
 puts ("hello ".+("world"))
 puts ((10.*(9)).+(9))
+
+#String Methods
+#reverse
+puts " "
+puts "String metods: REVERSE"
+str1 = "stop"
+str2 = "deliver repaid desserts"
+str3 = "....TCELES B HSUP - A magic spell?"
+
+puts str1.reverse
+puts str2.reverse
+puts str3.reverse
+
+puts str1
+puts str2
+puts str3
+
+#length
+puts " "
+puts "String metods: LENGTH"
+puts "What is your full name?"
+name = gets.chomp
+puts "Did you know there are #{name.length} characters in your name, #{name}?"
