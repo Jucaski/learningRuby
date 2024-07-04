@@ -93,9 +93,13 @@ puts number1.to_s + number2 #to_s, to get the string version of an object
 puts number1 + number2.to_i #to_i, to get the integer version of an object
 puts number1 + number2.to_f #to_f, to get the float version of an object
 puts " "
-puts "8 is my favorite number!".to_i #It displays 8 
-puts "Who asked you about 8 or whatever?".to_i
+puts "8 is my favorite number!".to_i # Displays 8 
+puts "Who asked you about 8 or whatever?".to_i #Displays 0
 puts "You did.".to_f
 puts " "
 
+#puts means "put string"
+
+#Getting string
+puts gets 
 
