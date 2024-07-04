@@ -154,3 +154,29 @@ puts "String metods: LENGTH"
 puts "What is your full name?"
 name = gets.chomp
 puts "Did you know there are #{name.length} characters in your name, #{name}?"
+
+#UPCASE, downcase, swapcase, Capitalize
+puts " "
+puts "String metods: UPCASE, downcase, swapcase, Capitalize"
+letters = "aAbBcCdDeEfF"
+puts letters.upcase
+puts letters.downcase
+puts letters.swapcase
+puts letters.capitalize
+puts " a".capitalize #Capitalize only the first character, not the first letter
+puts letters
+
+#center
+line_width = 50 #Adds spaces to the beginning and end of the string
+puts("Old Mother Hubbard".center(line_width))
+puts("Sat in her cupboard".center(line_width))
+puts("Eating her curds and whey".center(line_width))
+
+#ljust rjust
+#Add spaces to the left or right
+puts " "
+str = "==> text <=="
+puts(str.ljust(line_width))
+puts(str.center(line_width))
+puts(str.rjust(line_width))
+puts(str.ljust(line_width/2) + str.rjust(line_width/2))
