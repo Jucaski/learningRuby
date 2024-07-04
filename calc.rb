@@ -66,3 +66,13 @@ my_own_variable = "just another " + "string"
 puts my_own_variable
 my_own_variable = 5 * (1+2)
 puts my_own_variable
+
+#Variables point to values
+var1 = 8
+var2 = var1
+puts var1
+puts var2
+puts ""
+var1 = "luck"
+puts var1
+puts var2
